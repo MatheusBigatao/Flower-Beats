@@ -1,0 +1,30 @@
+Criar Sequence com o chão se abrindo, lá embaixo ele encontrará o triangulo
+
+Criar Tiles ou sprites (acho q vai ser melhor sprites) que substituirão o obj_wall
+Os sprites serão exatamente iguais ao obj_wall em tamanho e cor
+Para mudar a cor: layer_sprite_blend:
+										EX: var lay_id = layer_get_id("Asset_sky");
+											var spr_id = layer_sprite_get_id(lay_id, "Clouds");
+											layer_sprite_blend(spr_id, c_gray);
+											
+Adquirir os IDs de todos os sprites da layer com layer_get_all_elements:
+
+										EX: var a = layer_get_all_elements(layer);
+											for (var i = 0; i < array_length_1d(a); i++;)
+											   {
+											   if layer_get_element_type(a[i]) == layerelementtype_sprite
+											      {
+											      layer_sprite_destroy(a[i])
+											      }
+											   }
+
+Largura máxima de 500-800 pixels
+Altura máxima de 350 - 500 pixels
+
+Criar um substitudo de obj_wall para fazer a colisão com o player, contornando a beirada do obj_wall
+utilizando valores máximos descritos acima.
+Criar um substituto de tamanho menor para preencher os espaços menores que o limites acima.
+
+
+
+

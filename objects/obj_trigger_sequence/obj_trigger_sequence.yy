@@ -1,0 +1,45 @@
+{
+  "spriteId": {
+    "name": "spr_shooter",
+    "path": "sprites/spr_shooter/spr_shooter.yy",
+  },
+  "solid": false,
+  "visible": false,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": null,
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_trigger_sequence","path":"objects/obj_trigger_sequence/obj_trigger_sequence.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"parent":{"name":"obj_trigger_sequence","path":"objects/obj_trigger_sequence/obj_trigger_sequence.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [
+    {"varType":5,"value":"sqc_square","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[
+        "sqc_square",
+        "sqc_circle",
+        "sqc_triangle",
+      ],"multiselect":false,"filters":[
+        "GMSequence",
+      ],"resourceVersion":"1.0","name":"sequence","tags":[],"resourceType":"GMObjectProperty",},
+  ],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Level zero",
+    "path": "folders/Objects/Level zero.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_trigger_sequence",
+  "tags": [],
+  "resourceType": "GMObject",
+}

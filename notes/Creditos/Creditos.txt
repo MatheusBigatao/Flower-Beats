@@ -1,0 +1,46 @@
+
+@"
+Thank you for playing!! 
+
+
+Created by
+Matheus Bigatão
+
+Level Design by
+Matheus Bigatão and Daniel Nhoato
+
+Testers
+Mateus Nhoato
+Dara Zaura
+Andre Bigatão
+Michel Raed
+Andre (milhouse)
+
+Olivia Bozoto
+Tupan
+Fernando Aranha
+
+Musics by
+Menu                Level 1
+-------             --------
+
+Level 2             Level 3
+-------             --------
+
+Level 4             Level 5
+-------             --------
+
+Level 6             Level 7
+-------             --------
+
+Level 8             Level 9
+-------             --------
+
+Sound Effects by
+freesound.org and Autistic Lucario
+
+Some awesome assets from
+https://game-icons.net
+Under Creative Common 3.0 (https://creativecommons.org/licenses/by/3.0/)
+
+and opengameart.org";
